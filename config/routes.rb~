@@ -1,6 +1,6 @@
 LearnRails::Application.routes.draw do
 
- root to: 'visitors#new'
+ root to: redirect('/about.html')
  
  # Code takes any request to the application root and redirects it to the about.html file.
 
